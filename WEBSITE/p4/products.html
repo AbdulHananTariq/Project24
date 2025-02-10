@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Out of Stock</title>
+    <link rel="stylesheet" href="/p4/p.css">
+    <style>
+        :root {
+            --primary-blue: #3498db;
+            --secondary-black: #2c3e50;
+            --accent-red: #e74c3c;
+        }
+
+        body {
+            background-color: var(--secondary-black);
+            color: white;
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-wrapper">
+        <div class="back-button-container">
+            <button class="back-btn" onclick="window.history.back()">← Back</button>
+        </div>
+        <div class="contact-container products-container">
+            <div class="contact-header">
+                <h1>Products Unavailable</h1>
+            </div>
+
+            <div class="out-of-stock-section">
+                <div class="out-of-stock-message">
+                    <div class="out-of-stock-icon">🚫</div>
+                    <h2>Sorry, Products Out of Stock</h2>
+                    <p>We're currently experiencing high demand. Our inventory is temporarily exhausted.</p>
+                </div>
+            </div>
+
+            <div class="explore-collection-container">
+                <button class="explore-collection-btn notify-btn">Notify Me When Available</button>
+            </div>
+        </div>
+    </div>
+    <script src="/p4/p.js"></script>
+</body>
+</html>
